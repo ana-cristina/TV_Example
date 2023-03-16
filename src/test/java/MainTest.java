@@ -8,7 +8,7 @@ public class MainTest {
     }
     @Test
     void verificaFalse(){
-        Assertions.assertTrue(Main.calculeaza(6282).equals("NU"));
+        Assertions.assertTrue(Main.calculeaza(82).equals("Numarul nu este valid"));
     }
 
 }
