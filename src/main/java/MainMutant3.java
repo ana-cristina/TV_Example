@@ -29,7 +29,7 @@ public class MainMutant3 {
 
     static String calculeaza(Integer n){
         String result ;
-        if(n >1000 && n <=99999){
+        if(n > 1000 && n <=99999){ // n >= 1000
             Integer nr = n, sum = 0;
             int c;
             while(nr>0){

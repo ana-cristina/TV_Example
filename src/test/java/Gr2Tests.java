@@ -2,8 +2,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class Gr2Tests {
-    Main main;
-    //MainMutant3 main;
+    //Main main;
+    MainMutant2 main;
        /*
     Equivalence partitioning
 Intrare n
@@ -46,7 +46,7 @@ C3 = {n | n in N3 si iesirea I3} -----> n = 123456
         Assertions.assertEquals("Numarul nu este valid", main.calculeaza(999));
         Assertions.assertEquals("NU", main.calculeaza(1000));
         Assertions.assertEquals("NU", main.calculeaza(99999));
-      //  Assertions.assertEquals("DA", main.calculeaza(2000));
+        Assertions.assertEquals("DA", main.calculeaza(2000));
         Assertions.assertEquals("Numarul nu este valid", main.calculeaza(100000));
         Assertions.assertEquals("Numarul nu este valid", main.calculeaza(234));
         Assertions.assertEquals("NU", main.calculeaza(2340));
@@ -57,6 +57,6 @@ C3 = {n | n in N3 si iesirea I3} -----> n = 123456
     void gce(){
         Assertions.assertEquals("Numarul nu este valid", main.calculeaza(687));
         Assertions.assertEquals("DA", main.calculeaza(5321));
-        Assertions.assertEquals("NU", main.calculeaza(5733));
+        Assertions.assertEquals("NU", main.calculeaza(4000));
     }
 }

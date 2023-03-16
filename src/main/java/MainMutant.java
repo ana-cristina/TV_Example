@@ -28,7 +28,7 @@ public class MainMutant {
     }
 
     static String calculeaza(Integer n){
-        String result = "...." ;
+        String result = "ydfgklk" ;
         if(n >=1000 && n <=99999){
             Integer nr = n, sum = 0;
             int c;
